@@ -97,6 +97,8 @@ export interface MarkdownProps {
   debugPrintTree?: boolean;
   onLinkPress?: (url: string) => boolean;
   children: string;
+  allowedImageHandlers?: string[];
+  defaultImageHandler?: string;
 }
 
 type MarkdownStatic = ComponentType<MarkdownProps>;

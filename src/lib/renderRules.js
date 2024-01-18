@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Pressable, View, Platform, StyleSheet} from 'react-native';
 import FitImage from 'react-native-fit-image';
 
